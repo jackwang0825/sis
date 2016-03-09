@@ -1,0 +1,83 @@
+html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
+body {font-size: 1.4rem;/*1.4 × 10px = 14px */}
+h1 { font-size: 2.4rem;/*2.4 × 10px = 24px*/}
+		
+.mainframe{
+	width:100%;
+}
+.goodframe{
+	margin:0 auto;
+	width:99%;
+	display:inline-table;
+}
+.goodframe a:link {color: #FF0000; text-decoration:none}     /* 未访问的链接 */
+.goodframe a:visited {color:#0C0; text-decoration:none}  /* 已访问的链接 */
+.goodframe a:hover {color: #FF00FF; text-decoration:none}    /* 当有鼠标悬停在链接上 */
+.goodframe a:active {color: #0000FF; text-decoration:none}   /* 被选择的链接 */
+
+.goodframe img{
+	width:100%;
+	margin:0 auto;
+	}
+.goodtitle{
+	font-size:smaller;
+	overflow:hidden;
+	height:2.5em;
+	}
+.oldprice{	
+	text-decoration:line-through;
+	font-size:x-small;
+	font-weight:bold;
+	}
+.sign{	
+	font-size:x-small;
+	font-weight:bold;
+	}	
+.nowprice{
+	white-space:pre;
+	font-size:small;
+	color:red;
+	font-weight:bold;
+	display:block;
+	float:left;
+	}
+.salenum{
+	float:right;
+	font-size:small;
+	font-weight:bold;
+	padding-right:10px;
+	display:block;
+	}
+.submitbutton{
+	width:90%;
+	margin:0 auto;}
+.pricewide{
+	margin:0 auto;
+	width:3em;
+	}
+.submitorder{
+	display:block;
+	background-color:#F00;
+	width:6em;
+	text-align:center;
+	line-height: 3em;
+	text-decoration:none;
+	color:black;
+	font-family:黑体;
+	}
+.myButton {
+		background-color:#383838; 
+		width:5em; 
+		height:2em; 
+		border:thin;
+		cursor:pointer;
+		font-family:宋体;
+		-webkit-transition:background 0.3s;
+		font-size:1.1em;
+		text-decoration:none;
+		line-height:2em;
+		display:block;
+}
+.btcolor{
+	
+	color:#FFF;}

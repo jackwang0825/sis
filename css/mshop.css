@@ -1,0 +1,38 @@
+
+.first{
+	width:49%;
+	float:left;
+	margin-left:2px;
+}
+.second{
+	width:49%;
+	float:right;
+	margin-right:2px;
+}
+.shoprecommendfirst{
+	margin:auto 0;
+	width:80%;
+	text-align:left;
+	line-height:150%;
+}
+.shoprecommendfirst a,li{
+	text-decoration:none;
+	list-style:none;
+	font-size:99%
+}
+.title{
+	color:#F00;
+}
+.shoprecommendfirst li{
+	border-bottom:dashed 1px gray;
+}
+.shoprecommendfirst a:hover{
+	text-decoration:none;
+}
+.goodshop{
+	 display:inline-block; Line-height:200%; padding-left:10px;padding-right:10px;border-bottom:dashed 1px gray;
+}
+.classfied{
+	
+	border-bottom:dashed 1px gray;
+}
